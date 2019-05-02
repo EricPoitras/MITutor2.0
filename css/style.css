@@ -1,0 +1,95 @@
+/* Fonts */
+*{
+    font-family: 'Helvetica', sans-serif;
+}
+
+#section_nav{
+    height: 46px;
+}
+
+#section_content, #section_module, #section_client{
+    background-color: rgb(227,227,227);
+    height: calc(100vh - 46px);
+}
+
+.row{
+    height: 100%;
+}
+
+#view_landing{
+    background-image: url("../assets/landing.svg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: bottom;
+}
+
+#view_module, #view_client{
+    overflow-y: scroll;
+}
+
+/*button.btn-primary, button.btn-primary:link, button.btn-primary:visited, button.btn-primary:hover, button.btn-primary:active, .btn-primary:focus, button.btn-primary.focus{
+    background-color: #db1836;
+    border-color: #db1836;
+}*/
+
+div.progress-bar{
+    background-color: #db1836;
+}
+
+.btn-primary{color:#fff;background-color:#db1836;border-color:#db1836}
+
+.btn-primary:hover{color:#fff;background-color:#db1836;border-color:#db1836}
+.btn-primary:focus,.btn-primary.focus{box-shadow:0 0 0 .2rem #db1836}
+.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#db1836;border-color:#db1836}
+.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#db1836;border-color:#000}
+.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem #db1836}
+
+.btn-outline-primary{color:#db1836;background-color:transparent;background-image:none;border-color:#db1836}.btn-outline-primary:hover{color:#222;background-color:#db1836;border-color:#db1836}
+.btn-outline-primary:focus,.btn-outline-primary.focus{box-shadow:0 0 0 .2rem #db1836}
+.btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#db1836;background-color:transparent}
+.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active,.show>.btn-outline-primary.dropdown-toggle{color:#fff;background-color:#db1836;border-color:#db1836}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-outline-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem #db1836}
+
+#input_ico_module, #input_ico_down1{
+    color: #db1836;
+}
+
+#section_client .instruction .card{
+    padding: 25px;
+    margin-bottom: 50px;
+}
+#section_client .statement .card{
+    position: relative;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+
+#section_client .statement img{
+    position: absolute;
+    left: -25px;
+    top: -25px;
+}
+#section_client .solution .card{
+    position: relative;
+    padding: 25px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+#section_client .solution img{
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+
+#section_client .response .card{
+    position: relative;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+#section_client .feedback .card{
+    padding: 25px;
+}
